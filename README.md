@@ -1,16 +1,28 @@
-# Ice Cream Parlor App
+# Ice Cream Parlor Application
 
-This is a Streamlit application for managing an ice cream parlor. The application allows users to explore different ice cream flavors, filter them by ingredients or allergens, and submit suggestions.
+Welcome to the Ice Cream Parlor application repository!
 
-## Running the Application with Docker
+## Getting Started
 
 ### Prerequisites
 
-- Docker installed on your machine
+- Docker: [Install Docker](https://docs.docker.com/get-docker/)
 
-### Build the Docker Image
+### Building and Running the Application with Docker
 
-To build the Docker image, navigate to the project directory and run the following command:
+1. Clone this repository:
 
-```sh
+  ```bash
+   git clone https://github.com/rshabh/projectIceCream.git
+   cd projectIceCream
+
+2.Build the Docker image:
+
+bash
 docker build -t ice-cream-parlor .
+
+3.Run the Docker container:
+docker run -p 8501:8501 ice-cream-parlor
+This command will run the Docker container based on the previously built image. It will expose port 8501, which is the default port used by the Streamlit application.
+
+Open your web browser and navigate to http://localhost:8501 to access the Ice Cream Parlor application.
