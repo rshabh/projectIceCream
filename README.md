@@ -22,3 +22,11 @@ Welcome to the Ice Cream Parlor application repository!
 3.Run the Docker container:
 
    docker run -p 8501:8501 ice-cream-manage
+
+## To Acess BETA Admin Functions 
+
+   password = super_secret
+
+## Alternative Streamlit URL if you don't have Docker
+
+   https://projecticecream-aruzc77w3ghxmyuots7j3z.streamlit.app/
