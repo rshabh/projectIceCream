@@ -13,17 +13,20 @@ Welcome to the Ice Cream Parlor application repository!
 1. Clone this repository:
 
    bash
+   
    git clone https://github.com/rshabh/projectIceCream.git
-   cd projectIceCream
+
 
 2.Build the Docker image:
 
 bash
+
 docker build -t ice-cream-manage .
 
 3.Run the Docker container:
 
 docker run -p 8501:8501 ice-cream-manage
+
 This command will run the Docker container based on the previously built image. It will expose port 8501, which is the default port used by the Streamlit application.
 
 
