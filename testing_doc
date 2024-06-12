@@ -1,0 +1,64 @@
+Test Steps to Validate the Ice Cream Parlor Application
+
+1. Admin Authentication
+Test Case 1.1: Verify Admin Authentication Functionality
+Open the application in a web browser.
+Navigate to the Admin Authentication section.
+Enter a correct admin secret and click "Submit".
+Expected Result: Admin authentication should succeed, and the admin options should be displayed.
+Enter an incorrect admin secret and click "Submit".
+Expected Result: Admin authentication should fail, and an error message should be displayed.
+
+
+2. Adding a New Flavor
+Test Case 2.1: Verify Adding a New Flavor Functionality
+Authenticate as an admin using the correct admin secret.
+Navigate to the "Add New Flavor" section.
+Enter valid details for a new flavor and click "Add Flavor".
+Expected Result: The new flavor should be added successfully, and a success message should be displayed.
+Attempt to add a flavor without filling in all required fields and click "Add Flavor".
+Expected Result: An error message should be displayed indicating the missing fields.
+
+
+3. Filtering Flavors
+Test Case 3.1: Verify Filtering by Ingredient Functionality
+Navigate to the "Filter by Ingredient" section.
+Select an ingredient from the dropdown list and click "Apply Ingredient Filter".
+Expected Result: Flavors containing the selected ingredient should be displayed.
+
+Test Case 3.2: Verify Filtering by Allergen Functionality
+Navigate to the "Filter by Allergen" section.
+Select an allergen from the dropdown list and click "Apply Allergen Filter".
+Expected Result: Flavors containing the selected allergen should be displayed.
+
+
+4. Viewing Flavors and Adding to Cart
+Test Case 4.1: Verify Viewing Flavor Details and Adding to Cart
+Navigate to the "Explore Flavors" section.
+Select a flavor from the dropdown list.
+Verify that the flavor details are displayed correctly.
+Click "Add to Cart" for the selected flavor.
+Expected Result: The selected flavor should be added to the cart, and a success message should be displayed.
+
+
+5. User Suggestions
+Test Case 5.1: Verify Submitting User Suggestions
+Enter your name and a suggestion in the "User Suggestions" section.
+Click "Submit Suggestion".
+Expected Result: The suggestion should be submitted successfully, and a success message should be displayed.
+
+
+6. Viewing Cart
+Test Case 6.1: Verify Viewing Cart Functionality
+Verify that the cart section displays correctly.
+Check that any flavors previously added to the cart are displayed.
+
+
+7. Database Integrity
+Test Case 7.1: Verify Database Integrity
+Verify that database operations such as adding flavors, submitting suggestions, and viewing cart items are reflected accurately in the database.
+
+
+8. Overall Application Functionality
+Test Case 8.1: Verify Overall Application Functionality
+Perform a series of interactions with different sections of the application, ensuring that all features behave as expected and that there are no errors or unexpected behaviors.
