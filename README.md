@@ -23,7 +23,7 @@ Welcome to the Ice Cream Parlor application repository!
 
    docker run -p 8501:8501 ice-cream-manage
 
-## To Acess BETA Admin Functions 
+## To access BETA Admin Functions 
 
    password = super_secret
 
